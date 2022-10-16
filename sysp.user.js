@@ -13,12 +13,14 @@ const banned_channels = ["UCWLrDy9B9k0GMS1n-wziQBA"]; // channel IDs go here
 const exp = new RegExp(banned_channels.join("|"));
 
 let BANNED = false;
-// This event only works on firefox, sorry folks.
-window.addEventListener('beforescriptexecute', check_channel); // https://developer.mozilla.org/en-US/docs/Web/API/Element/beforescriptexecute_event
+
+// This event only works on firefox
+// https://developer.mozilla.org/en-US/docs/Web/API/Element/beforescriptexecute_event
+window.addEventListener('beforescriptexecute', check_channel);
 
 function check_channel(e) {
 
-  if (BANNED) {
+  if (BANNED) { // stop other scripts once we've already determined this vid is banned.
     e.preventDefault();
     console.log("stopped script of a banned channel");
     return;
@@ -28,17 +30,17 @@ function check_channel(e) {
   const channel_logo = document.querySelector(".ytp-title-channel-logo");
   if (!channel_logo) return;
 
-  // Check if this channel is banned
-  const banned = exp.test(channel_logo.href); // Channel logo contains a link to the channel, check if that link contains the banned string
-  if (!banned) {
-    window.removeEventListener('beforescriptexecute', check_channel); // This channel isn't banned. Time to leave!
+  // Channel logo contains a link to the channel, check if that link contains the banned string
+  const banned = exp.test(channel_logo.href);
+  if (!banned) { // Not banned, this vid is fine.
+    window.removeEventListener('beforescriptexecute', check_channel);
     return;
   }
 
-  BANNED = true; // block other scripts too
+  BANNED = true;
 
   // Prevent this script from executing further
-  e.preventDefault(); // stop this script from executing
+  e.preventDefault();
 
   // Stop any resource loading. Very important. If you dont do this, the video (despite being
   // removed from the body in the code below) will still load and its audio will start playing.
@@ -46,11 +48,10 @@ function check_channel(e) {
 
   // Replace the embedded video with a little message explaining why it is gone.
   const html = document.body.parentElement;
-
   document.body.remove();
   const msg = document.createElement("p");
   msg.style = "color: white; text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black, 0 0 5px black;"
   msg.textContent = "Banned YouTube channel";
   html.append(msg);
-  html.style.background = "black"; // protect your eyes
+  html.style.background = "black";
 }
