@@ -50,7 +50,7 @@ function check_channel(e) {
   const html = document.body.parentElement;
   document.body.remove();
   const msg = document.createElement("p");
-  msg.style = "color: white; text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black, 0 0 5px black;"
+  msg.style.color = "white";
   msg.textContent = "Banned YouTube channel";
   html.append(msg);
   html.style.background = "black";
