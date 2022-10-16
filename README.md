@@ -1,4 +1,4 @@
-# SYSP: Screw you Sandy Pall
+# SYSP: Screw You Sandy Pall
 
 Are you tired of Sandy Pall posting her disgusting videos all over your social media? Well worry no more! With this userscript, any videos of hers which are embedded on other pages (such as reddit) will be blocked the moment they try to load.
 
