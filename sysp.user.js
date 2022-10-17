@@ -3,7 +3,7 @@
 // @namespace   Violentmonkey Scripts
 // @match       https://www.youtube.com/embed/*
 // @grant       none
-// @version     1.1
+// @version     1.1.1
 // @author      Sanian
 // @run-at      document-end
 // @description Screw you sandy pall, suck my nuts. (Don't actually, you're gross. Its a figure of speech because I despise you)
@@ -21,7 +21,7 @@ function check_channel(mutation_record, observer) {
 
   const banned = reg_exp.test(channel_logo.href); // See if channel logo link contains a banned channel ID
   if (!banned) { // Not banned, this vid is fine.
-    window.removeEventListener('beforescriptexecute', check_channel);
+    observer.disconnect();
     return;
   }
 
