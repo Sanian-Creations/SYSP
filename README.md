@@ -1,7 +1,11 @@
 # SYSP: Screw You Sandy Pall
 
-Are you tired of Sandy Pall posting her disgusting videos all over your social media? Well worry no more! With this userscript, any videos of hers which are embedded on other pages (such as reddit) will be blocked the moment they try to load.
+Sandy Pall in a repulsive old woman who post skimpy videos of herself to small subreddits such as r/bonehealingjuice which aren't highly moderated, in order to promote her YouTube channel and the erotic books she sells. (I'm not making this up, here's a post of hers)
+
+She evades bans and blocks by creating new alts, but I refuse to give her my YouTube views, not even by accidentally clicking the embedded videos on Reddit. So, in order to spite her I wrote a script which blocks all embedded videos from her channel and replaces them with a black screen.
+
+If you've seen some of her posts and hate her guts as much as I do, I want to share the script with you to hopefully prevent her image from ever reaching your retinas again. 
 
 # How to use
-2. Have a userscript extension installed, such as Greasemonkey, Violentmonkey or Tampermonkey.
-3. Open [sysp.user.js](https://github.com/Sanian-Creations/SYSP/raw/main/sysp.user.js) and install the script.
+1. Have a userscript manager extension/plugin installed, such as Greasemonkey, Violentmonkey (the one I use) or Tampermonkey. 
+2. Open [sysp.user.js](https://github.com/Sanian-Creations/SYSP/raw/main/sysp.user.js) and install the script.
