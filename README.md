@@ -1,5 +1,5 @@
 # SYSP: Screw You Sandy Pall
-Sandy Pall in a repulsive old woman who posts skimpy videos of herself to small subreddits such as r/bonehealingjuice and r/ICoveredASong which aren't highly moderated, in order to promote her YouTube channel and the erotic books she sells. (I'm not making this up, here's [a post of hers](https://www.reddit.com/r/bonehealingjuice/comments/y5ozyq/im_winning/), subs she is active on include r/ICoveredASong, r/bonehealingjuice, r/alienbacon, r/reospeedwagon, r/unknowntalent, r/covers, r/80sMusicCovers) 
+Sandy Pall in a repulsive old woman who posts skimpy videos of herself to small subreddits such as r/bonehealingjuice and r/ICoveredASong which aren't highly moderated, in order to promote her YouTube channel and the erotic books she sells. (I'm not making this up, here's [a post of hers](https://www.reddit.com/r/bonehealingjuice/comments/y5ozyq/im_winning/). Subs she regularly posts to include r/ICoveredASong, r/bonehealingjuice, r/alienbacon, r/reospeedwagon, r/unknowntalent, r/covers, r/80sMusicCovers) 
 
 She evades bans and blocks by creating new alts, but I refuse to give her my YouTube views, not even by accidentally clicking the embedded videos on Reddit. So, in order to spite her I wrote a script which blocks all embedded videos from her channel and replaces them with a black screen. 
 
