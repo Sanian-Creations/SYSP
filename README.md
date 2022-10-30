@@ -10,18 +10,22 @@ If you've seen some of her posts and hate her guts as much as I do, I want to sh
 2. Open [sysp.user.js](https://github.com/Sanian-Creations/SYSP/raw/main/sysp.user.js) and install the script.
 
 # List of subreddits Sandy likes to bother
-- r/mildlysatisfying - this is a big sub, they can probably handle it
-- r/ICoveredASong
-- r/bonehealingjuice
-- r/alienbacon
-- r/reospeedwagon
-- r/unknowntalent
-- r/covers
 - r/80sMusicCovers
-- r/karaokebattles
-- r/yourmom
+- r/alienbacon
+- r/bonehealingjuice
+- r/covers
+- r/CringePurgatory
 - r/holupagain
 - r/holupinholup
+- r/ICoveredASong
+- r/karaokebattles
+- r/mildlysatisfying
+- r/outsideofthebox
+- r/reospeedwagon
 - r/SingerSongwriter
 - r/singersongwriters
-- r/CringePurgatory - these guys seem to enjoy her cringy videos, though
+- r/TheBangles
+- r/tookjustenough
+- r/unknowntalent
+- r/yourmom
+- r/yourmomshousepodcast
