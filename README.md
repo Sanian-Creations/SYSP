@@ -6,7 +6,7 @@ She evades bans and blocks by creating new alts, but I refuse to give her my You
 If you've seen some of her posts and hate her guts as much as I do, I want to share the script with you to hopefully prevent her image from ever reaching your retinas again. 
 
 # How to use
-1. Have a userscript manager extension/plugin installed, such as Greasemonkey, [Violentmonkey](https://violentmonkey.github.io/) (the one I use) or Tampermonkey. 
+1. Have a userscript manager extension/plugin installed, such as [Greasemonkey](https://www.greasespot.net/), [Violentmonkey](https://violentmonkey.github.io/) (the one I use) or [Tampermonkey](https://www.tampermonkey.net/). 
 2. Open [sysp.user.js](https://github.com/Sanian-Creations/SYSP/raw/main/sysp.user.js) and install the script.
 
 # List of subreddits Sandy likes to bother
