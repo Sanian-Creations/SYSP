@@ -26,6 +26,7 @@ If you've seen some of her posts and hate her guts as much as I do, I want to sh
 - r/singersongwriters
 - r/TheBangles
 - r/tookjustenough
+- r/tooktoomuch
 - r/unknowntalent
 - r/yourmom
 - r/yourmomshousepodcast
